@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Legend.cs" />
+    <Compile Include="MapCanvas.cs" />
+    <Compile Include="MapLayer.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProjectLayers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provider.cs" />
+    <Compile Include="Qgis.cs" />
+    <Compile Include="SingleSymbol.cs" />
+    <Compile Include="SpartialRefSys.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
